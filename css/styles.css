@@ -42,8 +42,10 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 30, 48, 243;
-  --bs-secondary-rgb: 226, 30, 128;
+  --bs-primary-rgb: 48, 48, 48;
+  /*--bs-primary-rgb: 30, 48, 243;*/
+  --bs-secondary-rgb: 48, 48, 48;
+  /*--bs-secondary-rgb: 226, 30, 128;*/
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -2845,8 +2847,10 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1e30f3;
-  --bs-btn-border-color: #1e30f3;
+  --bs-btn-bg: #373737;
+  /*--bs-btn-bg: #1e30f3;*/
+  --bs-btn-border-color: #000;
+  /*--bs-btn-border-color: #1e30f3;*/
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #1a29cf;
   --bs-btn-hover-border-color: #1826c2;
@@ -11556,11 +11560,13 @@ html {
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: linear-gradient(135deg, #393939 0%, #000 100%);
+  /*background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);*/
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(315deg, #393939 0%, #000 100%);
+  /*background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11611,7 +11617,8 @@ html {
   top: 6.05vw;
 }
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: #373737;
+  /*fill: #1e30f3;*/
 }
 .profile .dots-3 {
   position: absolute;
@@ -11629,7 +11636,8 @@ html {
   bottom: 4vw;
 }
 .profile .dots-4 svg {
-  fill: #1e30f3;
+  fill: #373737;
+  /*fill: #1e30f3;*/
 }
 
 @media (min-width: 576px) {
